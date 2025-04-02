@@ -41,7 +41,7 @@
             <div class="container">
                 <h1 class="title-start">Effective Solutions
                     for Your Business</h1>
-                <button type="button" class="btn">Order Service</button>
+                <button type="button" class="btn" data-modal-open>Order Service</button>
             </div>
         </section>
         <section class="advantages section">
@@ -344,8 +344,26 @@
 
 
             </div>
+            <div class="footer-subscribe">
+                <p class="footer-subscribe-text">Subscribe</p>
+                <form class="footer-form">
+                    <input class="footer-input" type="email" placeholder="E-mail" required /> <button class="footer-btn"
+                        type="submit">Subscribe <svg class="soc" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg></button>
+                </form>
+            </div>
         </div>
     </footer>
+    <div class="backdrop " data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close-btn" data-modal-close><svg class="modal-icon-close" width="8"
+                    height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg></button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
