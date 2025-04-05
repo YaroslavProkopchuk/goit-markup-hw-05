@@ -621,11 +621,6 @@ a {
   margin-bottom: 16px;
 }
 .modal-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
 }
 .form-wrapper {
   width: 100%;
